@@ -13,7 +13,18 @@ const express = require('express');
 // Der Body-Parser wird im Terminal mit dem Befehl 'npm install -g body-parser' installiert.
 
 const bodyParser = require('body-parser');
+let Kunde = new Kunde();
+kunde.Vornahme
+kunde.Nachname
+kunde.Benutzername = 
+kunde.Kennwort = 123
 
+let meldung ="";
+
+res.render
+989348367
+
+if(kunde.benutzername == benutzername && kunde.kennwort == Kennwort){}
 // Die Anweisungen werden von oben nach unten abgearbeitet. Der Wert 3000 wird von rechts nach links 
 // zugewiesen an die Konstante namens PORT. Das einfache Gleichheitszeichen lässt sich also übersetzen
 // mit "... wird zugewiesen an ..."
@@ -33,7 +44,7 @@ app.set('view engine', 'ejs')
 
 // Der Bodyparser wird in der app eingebunden.
 
-app.use(bodyParser.urlencoded({extended: true}))
+app.use(bodyParser.urlencoded({extended: true})
 
 app.get('/', (req, res) => {
 
